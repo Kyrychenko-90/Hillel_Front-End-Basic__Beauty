@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1230px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-top {
+    background: #EFEFEF;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.header-top-menu {
+    text-align: right;
+}
+
+.header-top-menu a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+    padding-left: 27px;
+}
+
+.header-top-menu a:hover {
+    color: #F13C6E;;
+}
+
+.header-middle {
+    border: 1px solid #EFEFEF;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.header-middle-menu-left {
+    float: left;
+}
+
+.header-middle-menu-right {
+    float: right;
+}
+
+.header-tel {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-tel:hover {
+    color: #F13C6E;
+}
+
+.header-about {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 9px 26px;
+    margin-left: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-about:hover {
+    border: 2px solid #000000;
+    background: #F13C6E;
+    color: #FFFFFF;
+}
+
+.nav {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 33px;
+}
+
+.nav a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.nav a:hover {
+    color: #F13C6E;
+}
+
+.block {
+    background: #F13C6E;
+}
+.block-left {
+    float: left;
+    width: 50%;
+    padding-top: 190px;
+    padding-bottom: 193px;
+}
+
+.block-right {
+    float: left;
+    width: 50%;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.block-left h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.block-left a {
+    text-decoration: none;
+}
+
+.block-right a {
+    text-decoration: none;
+}
+
+.block-left p {
+    width: 308px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 54px;
+}
+
+.block-left-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px 44px;
+}
+
+.block-left-link:hover {
+    border: 2px solid #000000;
+    background: #FFFFFF;
+    color: #F13C6E;
+}
+
+.box {
+    background: #EFEFEF;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+.box h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+
+.card {
+    font-size: 0;
+    margin: 0 -15px;
+}
+
+.card-wrap {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.card-item {
+    background: #FFFFFF;
+    text-align: center;
+    padding: 25px 21px 38px;
+    margin-bottom: 27px;
+}
+
+.card-item-img {
+    padding-bottom: 19px;
+}
+
+.card-item-text {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 12px;
+}
+
+.card-item-price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.card-item-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border-radius: 30px;
+    padding: 9px 40px;
+}
+
+.card-item-link:hover {
+    border: 2px solid #000000;
+    background: #FFFFFF;
+    color: #F13C6E;
+}
+
+.card-item a {
+    text-decoration: none;
+}
+
+.footer-border {
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.footer-col-wrap {
+    font-size: 0;
+    margin: 0 -15px;
+}
+
+.footer-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 81px 15px 49px;
+}
+
+.fmr-0 {
+    margin-right: 0;
+}
+
+.footer-col h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 46px;
+    margin-bottom: 25px;
+}
+
+.footer-col ul {
+    padding-left: 0;
+}
+
+.footer-col li {
+    list-style: none;
+}
+
+.footer-col a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.footer-col a:hover {
+    color: #F13C6E;
+}
+
+.footer-about {
+    padding-top: 38px;
+    padding-bottom: 33px;
+}
+
+.footer-about-left {
+    float: left;
+}
+
+.footer-about-right {
+    float: right;
+}
+
+.social {
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.footer-tel {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-tel:hover {
+    color: #F13C6E;
+}
+
+.footer-about-button {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 12px 26px;
+    margin-left: 37px;
+}
+
+.footer-about-button:hover {
+    border: 2px solid #000000;
+    background: #F13C6E;
+    color: #FFFFFF;
+}
+
+.footer-end {
+    background: #EFEFEF;
+}
+
+.footer-end-left {
+    float: left;
+    padding-top: 26px;
+    padding-bottom: 25px;
+}
+
+.footer-end-right {
+    float: right;
+    padding-top: 22px;
+    padding-bottom: 25px;
+}
+
+.footer-end-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.footer-end-link {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.footer-end-link:hover {
+    color: #F13C6E;
+}
+
+.social-other:hover svg path {
+    fill: #000000;
+}
+
+.social-other:hover svg circle {
+    stroke: #000000;
+}
+
+.social-youtube:hover .social-youtube-inside {
+    fill: #000000;
+}
+
+
+
+
+
+
